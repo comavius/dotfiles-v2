@@ -1,0 +1,17 @@
+{
+    "nix.serverPath": "nil",
+    "nix.serverSettings": {
+        "nil": {
+            "formatting": {
+                "command": [
+                    "nix",
+                    "fmt",
+                    "--",
+                    "${file}",
+                    "--stdin"
+                ]
+            }
+        }
+    },
+    "nixEnvSelector.nixFile": "${workspaceFolder}/flake.nix"
+}
